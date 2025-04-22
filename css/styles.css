@@ -1,1 +1,396 @@
-/* styles */
+:root {
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ============================
+   ESTILOS UNIFICADOS - styles.css
+   ============================ */
+
+/* === INDEX.HTML === */
+.index__body__estructura {
+    background-color: #1a1a2e;
+    color: #e94560;
+    font-family: Arial, sans-serif;
+    padding: 1.5rem;
+}
+
+.index__header__section__encabezado {
+    background-color: #0f3460;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    border: 0.5rem  #e94560;
+}
+
+.index__header__section__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.index__header__section__menu__nav__lista {
+    list-style: none;
+    display: flex;
+    margin: 1rem;
+    padding: 0;
+}
+
+.index__header__section__menu__nav__item__enlace {
+    color: #e94560;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s;
+}
+
+.index__header__section__menu__nav__item__enlace:hover {
+    background-color: #53354a;
+}
+
+.index__header__section__menu__tema__boton {
+    border: 0.2rem solid #e94560;
+    background: transparent;
+    color: #e94560;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.index__main__contenido__imagen__foto {
+    width: 20%;
+    border-radius: 0.5rem;
+    border: 0.2rem solid #e94560;
+    margin: 0 auto;
+    display: block;
+}
+
+.index__main__contenido__descripcion__titulo {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.index__main__contenido__descripcion__texto {
+    margin-top: 1rem;
+    font-size: 1rem;
+
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* === ABOUT ME.HTML === */
+.aboutme__body__estructura {
+    background-color: #1a1a2e;
+    color: #e94560;
+    font-family: Arial, sans-serif;
+    padding: 1.5rem;
+}
+
+.aboutme__header__contenedor {
+    background-color: #0f3460;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: 0.2rem  #e94560;
+    margin-bottom: 2rem;
+}
+
+.aboutme__header__navegacion__menu__lista {
+    list-style: none;
+    display: flex;
+    margin: 1rem;
+    padding: 0;
+}
+
+.aboutme__header__navegacion__menu__item__enlace {
+    color: #e94560;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s;
+}
+
+.aboutme__header__navegacion__menu__item__enlace:hover {
+    background-color: #53354a;
+}
+
+.aboutme__header__navegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutme__header__boton__modo {
+    border: 0.2rem solid #e94560;
+    background: transparent;
+    color: #e94560;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.aboutme__main__botonera {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.aboutme__main__botonera button {
+    padding: 0.75rem 1.25rem;
+    background-color: transparent;
+    border: 0.2rem solid #e94560;
+    border-radius: 0.5rem;
+    color: #e94560;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.aboutme__main__botonera button:hover {
+    background-color: #e94560;
+    color: #1a1a2e;
+}
+
+.aboutme__main__descripcion__texto {
+    margin: 0 auto 2rem auto;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.aboutme__main__descripcion__lista-habilidades {
+    list-style: none;
+    padding: 0;
+    margin: 2rem auto;
+}
+
+.aboutme__main__descripcion__lista-habilidades__item {
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    border-left: 0.4rem solid #e94560;
+}
+
+.aboutme__main__descripcion__estudio,
+.aboutme__main__descripcion__anio,
+.aboutme__main__descripcion__titulo {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+/* === PORTFOLIO.HTML === */
+.portfolio__body__estructura {
+    background-color: #1a1a2e;
+    color: #e94560;
+    font-family: Arial, sans-serif;
+    padding: 1.5rem;
+}
+
+.portfolio__header__contenedor {
+    background-color: #0f3460;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: 0.2rem  #e94560;
+    margin-bottom: 2rem;
+}
+
+.portfolio__header__navegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolio__header__navegacion__menu__lista {
+    list-style: none;
+    display: flex;
+    margin: 1rem;
+    padding: 0;
+}
+
+.portfolio__header__navegacion__menu__item__enlace {
+    color: #e94560;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s;
+}
+
+.portfolio__header__navegacion__menu__item__enlace:hover {
+    background-color: #53354a;
+}
+
+.portfolio__header__boton__modo {
+    border: 0.2rem solid #e94560;
+    background: transparent;
+    color: #e94560;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.portfolio__main__carrusel {
+    border: 0.2rem groove #e94560;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.portfolio__main__carrusel__descripcion {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    line-height: 1.6;
+}
+
+.portfolio__main__proyectos {
+    border: 0.2rem groove #e94560;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.portfolio__main__proyectos__titulo {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.portfolio__main__proyectos__descripcion {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    line-height: 1.6;
+}
+
+/* === CONTACTO.HTML === */
+.contacto__body__estructura {
+    background-color: #1a1a2e;
+    color: #e94560;
+    font-family: Arial, sans-serif;
+    padding: 1.5rem;
+}
+
+.contacto__header__contenedor {
+    background-color: #0f3460;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: 0.2rem  #e94560;
+    margin-bottom: 2rem;
+}
+
+.contacto__header__navegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacto__header__navegacion__menu__lista {
+    list-style: none;
+    display: flex;
+    margin: 1rem;
+    padding: 0;
+}
+
+.contacto__header__navegacion__menu__item__enlace {
+    color: #e94560;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s;
+}
+
+.contacto__header__navegacion__menu__item__enlace:hover {
+    background-color: #53354a;
+}
+
+.contacto__header__boton__modo {
+    border: 0.2rem solid #e94560;
+    background: transparent;
+    color: #e94560;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+.contacto__main_formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacto__main__formulario__titulo {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.contacto__main__formulario__form {
+    max-width: 40rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.contacto__main__formulario__form__label {
+    font-size: 1rem;
+}
+
+.contacto__main__formulario__form__input,
+.contacto__main__formulario__form__textarea {
+    background-color: transparent;
+    border: 0.2rem solid #e94560;
+    color: #e94560;
+    border-radius: 0.4rem;
+    padding: 0.75rem;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.contacto__main__formulario__form__boton {
+    padding: 0.75rem;
+    background-color: transparent;
+    border: 0.2rem solid #e94560;
+    color: #e94560;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contacto__main__formulario__form__boton:hover {
+    background-color: #e94560;
+    color: #1a1a2e;
+}
+
+.contacto__footer__pie {
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 0.1rem solid #e94560;
+}
+
+.contacto__footer__redes__lista {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    padding: 0;
+}
+
+.contacto__footer__redes__item {
+    font-size: 1rem;
+}

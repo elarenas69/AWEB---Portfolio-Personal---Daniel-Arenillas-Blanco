@@ -1,40 +1,62 @@
 <!-- About me  -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sobre Mí</title>
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
-<body>
-    <header>
-        <section>
-            <h1>Daniel Arenillas Blanco</h1>
+<body class="aboutme__body__estructura">
+    <header class="aboutme__header__contenedor">
+        <section class="aboutme__header__presentacion">
+            <h1 class="aboutme__header__presentacion__titulo">Daniel Arenillas Blanco</h1>
         </section>
-        <section>
-            <nav>
-                <ul>
-                    <li><a href="../index.html">Principal</a></li>
-                    <li><a href="./Portfolio.html">Portfolio</a></li>
-                    <li><a href="./Contact.html">Contacto</a></li>
+        <section class="aboutme__header__navegacion">
+            <nav class="aboutme__header__navegacion__menu">
+                <ul class="aboutme__header__navegacion__menu__lista">
+                    <li class="aboutme__header__navegacion__menu__item"><a href="../index.html" class="aboutme__header__navegacion__menu__item__enlace">Principal</a></li>
+                    <li class="aboutme__header__navegacion__menu__item"><a href="./Portfolio.html" class="aboutme__header__navegacion__menu__item__enlace">Portfolio</a></li>
+                    <li class="aboutme__header__navegacion__menu__item"><a href="./Contact.html" class="aboutme__header__navegacion__menu__item__enlace">Contacto</a></li>
                 </ul> 
             </nav>
-            <article>
-                <button>Modo Nocturno</button>
+            <article class="aboutme__header__boton">
+                <button class="aboutme__header__boton__modo">Modo Nocturno</button>
             </article>            
+        </section>
     </header>
-    <main>
-        <section>
-            <button>Sobre mi</button>
-            <button>Habilidades</button>
-            <button>Estudios</button>
-            <button>Datos de Interes</button>
+    <main class="aboutme__main__contenido">
+        <section class="aboutme__main__botonera">
+            <button class="aboutme__main__botonera__sobre-mi">Sobre mi</button>
+            <button class="aboutme__main__botonera__habilidades">Habilidades</button>
+            <button class="aboutme__main__botonera__estudios">Estudios</button>
+            <button class="aboutme__main__botonera__datos">Datos de Interés</button>
         </section>
-        <section>
-            <h2>Sobre mi</h2>
-            <p>Breve descripcion</p>
+        <section class="aboutme__main__descripcion">
+            <p class="aboutme__main__descripcion__texto">
+                Soy Técnico en Sistemas Microinformáticos y Redes, con experiencia en instalación, mantenimiento y soporte de equipos y redes. Tengo un nivel B1 de inglés, que me permite manejar documentación técnica y comunicarme en entornos laborales básicos en este idioma.
+
+                Además, he completado varios cursos de programación en lenguajes como Python, Java, JavaScript, C++ y C#, lo que me ha permitido adquirir conocimientos en desarrollo de aplicaciones, lógica de programación y estructuras de datos. Me considero una persona proactiva, con ganas de seguir aprendiendo y creciendo en el ámbito tecnológico.
+            </p>
+
+            <ul class="aboutme__main__descripcion__lista-habilidades">
+                <li class="aboutme__main__descripcion__lista-habilidades__item">Ganas de aprender...</li>
+                <li class="aboutme__main__descripcion__lista-habilidades__item">Servicio al cliente...</li>
+                <li class="aboutme__main__descripcion__lista-habilidades__item">Resolución de problemas...</li>
+                <li class="aboutme__main__descripcion__lista-habilidades__item">Trabajo en equipo...</li>
+                <li class="aboutme__main__descripcion__lista-habilidades__item">Manejo de efectivo...</li>
+                <li class="aboutme__main__descripcion__lista-habilidades__item">Comunicación...</li>            
+            </ul>
+
+            <p class="aboutme__main__descripcion__estudio">I.E.S Las Salinas, San Fernando</p>
+            <p class="aboutme__main__descripcion__anio">2019 - 2023</p>
+            <p class="aboutme__main__descripcion__titulo">Educación Secundaria Obligatoria</p>
+
+            <p class="aboutme__main__descripcion__estudio">I.E.S Rafael Alberti, Cádiz</p>
+            <p class="aboutme__main__descripcion__anio">2023 - 2025</p>
+            <p class="aboutme__main__descripcion__titulo">Formación Profesional de Grado Medio en Sistemas Microinformáticos y Redes</p>
         </section>
-    </main>
+    </main>    
 </body>
 </html>

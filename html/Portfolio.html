@@ -1,37 +1,38 @@
 <!-- Portfolio -->
  
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
-<body>
-    <header>
-        <section>
-            <h1>Daniel Arenillas Blanco</h1>
+<body class="portfolio__body__estructura">
+    <header class="portfolio__header__contenedor">
+        <section class="portfolio__header__presentacion">
+            <h1 class="portfolio__header__presentacion__titulo">Daniel Arenillas Blanco</h1>
         </section>
-        <section>
-            <nav>
-                <ul>
-                    <li><a href="../index.html">Principal</a></li>
-                    <li><a href="./About me.html">Sobre mi</a></li>
-                    <li><a href="./Contact.html">Contacto</a></li>
+        <section class="portfolio__header__navegacion">
+            <nav class="portfolio__header__navegacion__menu">
+                <ul class="portfolio__header__navegacion__menu__lista">
+                    <li class="portfolio__header__navegacion__menu__item"><a href="../index.html" class="portfolio__header__navegacion__menu__item__enlace">Principal</a></li>
+                    <li class="portfolio__header__navegacion__menu__item"><a href="./About me.html" class="portfolio__header__navegacion__menu__item__enlace">Sobre mi</a></li>
+                    <li class="portfolio__header__navegacion__menu__item"><a href="./Contact.html" class="portfolio__header__navegacion__menu__item__enlace">Contacto</a></li>
                 </ul> 
             </nav>
-            <article>
-                <button>Modo Nocturno</button>
+            <article class="portfolio__header__boton">
+                <button class="portfolio__header__boton__modo">Modo Nocturno</button>
             </article>            
-    </header>
-    <main>
-        <section>
-            <p>Aqui va el carrusel de fotos</p>
         </section>
-        <section>
-            <h2>Mis Proyectos</h2>
-            <p>Aqui va el listado de proyectos</p>
+    </header>
+    <main class="portfolio__main__contenido">
+        <section class="portfolio__main__carrusel">
+            <p class="portfolio__main__carrusel__descripcion">Aquí va el carrusel de fotos</p>
+        </section>
+        <section class="portfolio__main__proyectos">
+            <h2 class="portfolio__main__proyectos__titulo">Mis Proyectos</h2>
+            <p class="portfolio__main__proyectos__descripcion">Aquí va el listado de proyectos</p>
         </section>
     </main>
 </body>

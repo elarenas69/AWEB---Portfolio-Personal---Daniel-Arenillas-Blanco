@@ -1,55 +1,54 @@
 <!-- Contact -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
-<body>
-    <header>
-        <section>
-            <h1>Daniel Arenillas Blanco</h1>
+<body class="contacto__body__estructura">
+    <header class="contacto__header__contenedor">
+        <section class="contacto__header__presentacion">
+            <h1 class="contacto__header__presentacion__titulo">Daniel Arenillas Blanco</h1>
         </section>
-        <section>
-            <nav>
-                <ul>
-                    <li><a href="../index.html">Principal</a></li>
-                    <li><a href="./About me.html">Sobre mi</a></li>
-                    <li><a href="./Portfolio.html">Portfolio</a></li>
+        <section class="contacto__header__navegacion">
+            <nav class="contacto__header__navegacion__menu">
+                <ul class="contacto__header__navegacion__menu__lista">
+                    <li class="contacto__header__navegacion__menu__item"><a href="../index.html" class="contacto__header__navegacion__menu__item__enlace">Principal</a></li>
+                    <li class="contacto__header__navegacion__menu__item"><a href="./About me.html" class="contacto__header__navegacion__menu__item__enlace">Sobre mi</a></li>
+                    <li class="contacto__header__navegacion__menu__item"><a href="./Portfolio.html" class="contacto__header__navegacion__menu__item__enlace">Portfolio</a></li>
                 </ul> 
             </nav>
-            <article>
-                <button>Modo Nocturno</button>
+            <article class="contacto__header__boton">
+                <button class="contacto__header__boton__modo">Modo Nocturno</button>
             </article>            
+        </section>
     </header>
-    <main>
-        <section>
-            <h2>Contacto</h2>
-           <form action="POST">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea>
-
-                <button type="submit">Enviar</button>
-           </form>
-
+    <main class="contacto__main__contenido">
+        <section class="contacto__main__formulario">
+            <h2 class="contacto__main__formulario__titulo">Contacto</h2>
+            <form action="POST" class="contacto__main__formulario__form">
+                <label for="nombre" class="contacto__main__formulario__form__label">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required class="contacto__main__formulario__form__input">
+                <label for="email" class="contacto__main__formulario__form__label">Email:</label>
+                <input type="email" id="email" name="email" required class="contacto__main__formulario__form__input">
+                <label for="mensaje" class="contacto__main__formulario__form__label">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="50" required class="contacto__main__formulario__form__textarea"></textarea>
+                <button type="submit" class="contacto__main__formulario__form__boton">Enviar</button>
+            </form>
         </section>
     </main>
-    <footer>
-        <section>
-            <h2>Redes Sociales</h2>
-            <ul>
-                <li>Instagram</li>
-                <li>GitHub</li>
-                <li>Twitter</li>
+    <footer class="contacto__footer__pie">
+        <section class="contacto__footer__redes">
+            <h2 class="contacto__footer__redes__titulo">Redes Sociales</h2>
+            <ul class="contacto__footer__redes__lista">
+                <li class="contacto__footer__redes__item">Instagram</li>
+                <li class="contacto__footer__redes__item">GitHub</li>
+                <li class="contacto__footer__redes__item">Twitter</li>
             </ul>
         </section>
+    </footer>
 </body>
 </html>
